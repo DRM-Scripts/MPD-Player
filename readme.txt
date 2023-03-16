@@ -2,7 +2,7 @@
 Installation Mpdplayer 2.0
 
 1.
-Install Java 16/17 on Ububntu 20.04 or 18.04
+Install Java 17 on Ububntu 20.04 or 18.04
 https://ubuntuhandbook.org/index.php/2021/03/oracle-java-16-released-install-ubuntu-20-04/
 
 2.
