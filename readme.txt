@@ -1,8 +1,8 @@
 ######################################################################################################
-Installation Mpdplayer 2.0
+Installation Mpdplayer 3.0 (Lancar)
 
 1.
-Install Java 16/17 on Ububntu 20.04 or 18.04
+Install Java 17 on Ububntu 20.04 or 18.04
 https://ubuntuhandbook.org/index.php/2021/03/oracle-java-16-released-install-ubuntu-20-04/
 
 2.
@@ -19,36 +19,55 @@ mount -t tmpfs -o size=1024M tmpfs /tmp/ramdisk
 
 4.
 Install your Deb package
-copy deb file to /home
+cd /home
+wget https://github.com/DRM-Scripts/MPD-Player/raw/master/mpd_player.deb
 dpkg -i mpd_player.deb
-After install mpdplayer start automatic
 
-5. 
+After install mpdplayer start automatic
+Stop mpdplayer service systemctl stop mpdplayer
+
+5.
+Rename V2 files
+mv /opt/mpdplayer /opt/mpdplayer-old
+mv /etc/mpdplayer/mpd.conf /etc/mpdplayer/mpd-old.conf
+
+6.
+Download V3 files
+wget https://github.com/DRM-Scripts/MPD-Player/raw/master/mpdplayer.tar
+tar -xf mpdplayer.tar
+
+7.
+Copy new files
+cp -R /mpdplayer /opt/mpdplayer
+cp /mpd.conf /etc/mpdplayer
+
+8. 
 Web interface
+systemctl start mpdplayer
 http://127.0.0.1:8989/ui
 admin
 123
 
-7.
+9.
 Useful commands
 systemctl start mpdplayer
 systemctl stop mpdplayer
 systemctl restart mpdplayer
 
-8.
+10.
 If you want add auto restart
 crontab -e
 Please copy 
 0 5 * * /opt/mpdplayer/bin/restartService.sh
 I's mean every Morning at 5:00am mpdplayer going restart
 
-9.
+11.
 Don't take more 50 streams on server
 
-10.
+12.
 Enjoy and not sell solution. 
 
-11.
+13.
 Enjoy
 
 Thank you
