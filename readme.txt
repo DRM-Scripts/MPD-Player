@@ -1,4 +1,6 @@
 ######################################################################################################
+#    PLEASE NOTE: NO SUPPORT GIVEN | INSTALL INSTRUCTIONS WILL BE SLIMELINED | SHARING IS CARING     #
+######################################################################################################
 Installation Mpdplayer 3.0 (Lancar)
 
 1.
