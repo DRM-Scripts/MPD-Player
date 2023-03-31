@@ -3,6 +3,8 @@
 ######################################################################################################
 Installation Mpdplayer 3.0 (Lancar)
 
+# IF YOU ARE HAVING STABILTY ISSUES WITH STREAMS USE V2 #
+
 1.
 Install Java 17 on Ububntu 20.04 or 18.04
 https://ubuntuhandbook.org/index.php/2021/03/oracle-java-16-released-install-ubuntu-20-04/
