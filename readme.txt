@@ -42,8 +42,8 @@ tar -xf mpdplayer.tar
 
 7.
 Copy new files
-cp -R /mpdplayer /opt/mpdplayer
-cp /mpd.conf /etc/mpdplayer
+cp -R mpdplayer /opt/mpdplayer
+cp mpd.conf /etc/mpdplayer
 
 8. 
 Web interface
