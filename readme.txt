@@ -1,7 +1,7 @@
 ######################################################################################################
 #    PLEASE NOTE: NO SUPPORT GIVEN | INSTALL INSTRUCTIONS WILL BE SLIMELINED | SHARING IS CARING     #
 ######################################################################################################
-Installation Mpdplayer 3.0 (Lancar)
+Installation MPDPlayer 2 & 3.0 (Lancar MOD)
 
 # IF YOU ARE HAVING STABILTY ISSUES WITH STREAMS USE V2 #
 
