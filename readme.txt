@@ -37,7 +37,9 @@ dpkg -i mpd_player.deb
 
 After install mpdplayer start automatic
 
+#######################################
 # STOP HERE IF YOU WANT TO STAY ON V2 #
+#######################################
 
 Stop mpdplayer service systemctl stop mpdplayer
 
